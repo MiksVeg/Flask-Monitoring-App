@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-service
+  lebels:
+    app: monitoring
+spec:
+  type: LoadBalancer
+  selector:
+    app: monitoring
+  ports:
+    - port: 5000
+      targetPort: 5000
