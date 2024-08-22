@@ -29,7 +29,7 @@ The goal of this project is to build a scalable, reliable, and fault-tolerant ap
 - **GitHub**
 - **Flask**
 
-## Installation
+## Process
 
 1. Clone the repository.
 ![image](https://github.com/user-attachments/assets/335ed089-5521-4303-9b05-dd4511348c3f)
