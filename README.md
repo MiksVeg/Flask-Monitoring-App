@@ -37,7 +37,7 @@ The goal of this project is to build a scalable, reliable, and fault-tolerant ap
 ![image](https://github.com/user-attachments/assets/7200af6d-54bf-43e8-aa6e-2e50caeaca4c)
 3. Set up a Kubernetes cluster using `kubeadm`.
 
-![image](https://github.com/user-attachments/assets/a8a12b6c-86a9-42e9-9ba5-139b358bd4f3)
+  ![image](https://github.com/user-attachments/assets/a8a12b6c-86a9-42e9-9ba5-139b358bd4f3)
 
 4. Deploy the application on AWS EKS.
 ![image](https://github.com/user-attachments/assets/e9428918-e330-4891-9b75-8ad5879b9f6a)
