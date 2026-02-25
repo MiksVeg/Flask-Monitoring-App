@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: python-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: python-app
+  template:
+    metadata:
+      labels:
+        app: python-app
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "5000"
+    spec:
+      containers:
+      - name: python-app
+        image: miksveg/monitoring-flask-app:latest
+        ports:
+        - containerPort: 5000
+        resources:
+          limits:
+            cpu: "50m"
+            memory: "64Mi"
